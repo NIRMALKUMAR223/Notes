@@ -1,0 +1,124 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+#nav{
+    background-color: #fd5659;
+    display: flex;
+    color: white;
+    padding: 17px;
+}
+#container{
+    margin: 1%;
+    width: 100%;
+}
+#box{
+    width: 30%;
+    height: 25%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#box h2{
+    color: #fd5659;
+    padding: 3%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+#box p{
+    background-color: rgb(0, 0, 0);
+}
+#box button{
+    background-color: rgb(255, 255, 255);
+    height: 30%;
+    width: 70px;
+    color: black;
+    font-size: small;
+    border-radius: 20px;
+    border: none;
+    padding: 2px;
+    margin: 5%;
+
+}
+
+#box button:active{
+    background-color: #fd5659;
+}
+#btn button{
+    width: 20%;
+    height: 10vh;
+    border-radius:50% ;
+    font-size: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    border: none;
+    background-color: #fd5659;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+#black{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    opacity: 0.6;
+    justify-content: center;
+    align-items: center;
+}
+#addnotes{
+    width: 70%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: white;
+    position: fixed;
+    left: 15%;
+    top: 20%;
+    z-index:2;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 2%;
+    
+}
+label{
+    color: #000000;
+    margin: 3%;
+    font-size: bolder; 
+}
+input{
+    border-radius: 20px;
+    border:none;
+    box-shadow: inset 1px 0px 1px 1px black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+input:hover{
+    border: 2px blue;
+}
+#addnotes button{
+    margin: 10px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+    color:black;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+        <h1>Notes</h1>
+    </div>
+    <div id="black"></div>
+    <div id="addnotes">
+        <form  id="form">
+            <label for="">Name of the Notes</label>
+            <input type="text" id="input1">
+            <label for="">Discription</label>
+            <input type="text" id="input2">
+            <button id="one" onclick="add()">Add</button>
+            <button id="two" onclick="cancel()">Cancel</button>
+        </form>
+
+
+    </div>
+    <div id="container">
+        <div id="box">
+            <h2>work</h2>
+            <p>I am working for 24h</p>
+            <button id="del" onclick="del()">Delete</button>
+        </div>               
+    </div>
+    <div id="btn">
+        <button id="click" onclick="on()">+</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
